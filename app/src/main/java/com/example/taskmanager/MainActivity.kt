@@ -32,7 +32,8 @@ class MainActivity : ComponentActivity() {
                     Completing(
                         completeMessage = stringResource(R.string.complete_message),
                         niceMessage = stringResource(R.string.nice_message),
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier
+                            .padding(innerPadding)
                             .fillMaxSize()
                     )
                 }
